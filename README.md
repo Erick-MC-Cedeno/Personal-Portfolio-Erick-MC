@@ -2,92 +2,91 @@
 This portfolio showcases my background and professional experience.
 # Erick MC Cedeño — Personal Portfolio
 
-Bienvenido al repositorio del portafolio profesional de Erick MC Cedeño. Este proyecto está diseñado para mostrar mi experiencia, habilidades y proyectos destacados en desarrollo web, móvil, blockchain y ciberseguridad, con un enfoque moderno y visualmente atractivo.
+Welcome to the professional portfolio repository of Erick MC Cedeño. This project is designed to showcase my experience, skills, and featured projects in web, mobile, blockchain, and cybersecurity development, with a modern and visually attractive approach.
 
-## 🚀 Descripción
+## 🚀 Description
 
-Este portafolio es una aplicación web desarrollada con Next.js y React, utilizando Tailwind CSS y una estética cyberpunk. Aquí podrás encontrar información sobre mi trayectoria profesional, habilidades técnicas, proyectos destacados y formas de contacto.
+This portfolio is a web application developed with Next.js and React, using Tailwind CSS and a cyberpunk aesthetic. Here you can find information about my professional background, technical skills, featured projects, and ways to contact me.
 
-## 🌐 URL de mi portafolio
+## 🌐 Portfolio URL
 
-Puedes visitar mi portafolio en: [https://personal-portfolio-erick-mc.vercel.app/](https://personal-portfolio-erick-mc.vercel.app/)
+You can visit my portfolio at: [https://personal-portfolio-erick-mc.vercel.app/](https://personal-portfolio-erick-mc.vercel.app/)
 
-## 🧑‍💻 Tecnologías principales
+## 🧑‍💻 Main Technologies
 
-- **Next.js** — Framework React para aplicaciones web modernas
-- **React** — Librería para interfaces de usuario
-- **TypeScript** — Tipado estático para JavaScript
-- **Tailwind CSS** — Utilidades CSS para estilos rápidos y responsivos
-- **MUI (Material UI)** — Componentes de interfaz de usuario
-- **Lucide React** — Íconos modernos y personalizables
+- **Next.js** — React framework for modern web applications
+- **React** — Library for user interfaces
+- **TypeScript** — Static typing for JavaScript
+- **Tailwind CSS** — CSS utilities for fast and responsive styling
+- **MUI (Material UI)** — User interface components
+- **Lucide React** — Modern and customizable icons
 
-## 📂 Estructura del proyecto
+## 📂 Project Structure
 
 ```
 Personal-Portfolio-Erick-MC/
 ├── app/
-│   ├── contacto/           # Página de contacto con enlaces a redes y correo
-│   ├── page.tsx            # Página principal del portafolio
+│   ├── contacto/           # Contact page with links to social networks and email
+│   ├── page.tsx            # Main portfolio page
 │   └── ...
-├── components/             # Componentes reutilizables (Hero, Skills, Experience, etc.)
-├── data/portfolioData.ts   # Datos de habilidades y experiencia profesional
-├── public/                 # Imágenes y recursos estáticos
-├── styles/                 # Archivos de estilos globales
-├── package.json            # Dependencias y scripts
+├── components/             # Reusable components (Hero, Skills, Experience, etc.)
+├── data/portfolioData.ts   # Skills and professional experience data
+├── public/                 # Images and static resources
+├── styles/                 # Global style files
+├── package.json            # Dependencies and scripts
 └── ...
 ```
 
-## 🏆 Secciones principales
+## 🏆 Main Sections
 
-- **Hero Section:** Presentación personal y CTA
-- **Trayectoria Profesional:** Experiencia laboral y proyectos destacados
-- **Habilidades Técnicas:** Categorías y tecnologías dominadas
-- **Contacto:** Enlaces directos a WhatsApp, Telegram, TikTok, Email, LinkedIn y Facebook
+- **Hero Section:** Personal introduction and CTA
+- **Professional Background:** Work experience and featured projects
+- **Technical Skills:** Categories and mastered technologies
+- **Contact:** Direct links to WhatsApp, Telegram, TikTok, Email, LinkedIn, and Facebook
 
-## 📋 Cómo ejecutar el proyecto
+## 📋 How to Run the Project
 
-1. Clona el repositorio:
+1. Clone the repository:
    ```bash
    git clone https://github.com/Erick-MC-Cedeno/Personal-Portfolio-Erick-MC.git
    cd Personal-Portfolio-Erick-MC
    ```
-2. Instala las dependencias:
+2. Install dependencies:
    ```bash
    pnpm install
-   # o
+   # or
    npm install
-   # o
+   # or
    yarn install
    ```
-3. Inicia el servidor de desarrollo:
+3. Start the development server:
    ```bash
    pnpm dev
-   # o
+   # or
    npm run dev
-   # o
+   # or
    yarn dev
    ```
-4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## ✨ Personalización
+## ✨ Customization
 
-- Modifica tu información profesional y proyectos en `data/portfolioData.ts`.
-- Cambia los enlaces de contacto en `app/contacto/page.tsx`.
-- Personaliza estilos en `styles/globals.css` o usando Tailwind.
+- Edit your professional information and projects in `data/portfolioData.ts`.
+- Change contact links in `app/contacto/page.tsx`.
+- Customize styles in `styles/globals.css` or using Tailwind.
 
-## 📫 Contacto
+## 📫 Contact
 
-Puedes contactarme directamente desde la sección de contacto del portafolio o a través de:
+You can contact me directly from the portfolio contact section or through:
 - **Email:** erickcedeno558@gmail.com
 - **LinkedIn:** [Erick MC Cedeño](https://www.linkedin.com/in/erick-cedeno-3a5137230)
 - **Facebook:** [@Erick_MC](https://www.facebook.com/erick.m.cedeno.92)
 - **TikTok:** [@erickmc_cedeno](https://www.tiktok.com/@erickmc_cedeno)
 
+## 📝 License
 
-## 📝 Licencia
-
-Este proyecto es de código abierto y está disponible bajo la licencia MIT.
+This project is open source and available under the MIT license.
 
 ---
 
-> Desarrollado y diseñado por **Erick MC Cedeño** — 2025
+> Developed and designed by **Erick MC Cedeño** — 2025
