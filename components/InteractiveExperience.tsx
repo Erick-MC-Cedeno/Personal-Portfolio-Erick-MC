@@ -1,6 +1,6 @@
 "use client"
 import { useState } from "react"
-import { Play, CheckCircle, Clock } from "lucide-react"
+import { Play, CheckCircle, Clock, Github } from "lucide-react"
 
 const experiences = [
   {
@@ -8,6 +8,7 @@ const experiences = [
     period: "2022 - Present",
     description:
       "Desarrollo de aplicaciones web completas usando MongoDB, Express.js, React y Node.js. Implementación de arquitecturas escalables y APIs RESTful.",
+    url: "https://github.com/tu_usuario/proyecto-mern",
     status: "ACTIVE" as const,
     technologies: ["React", "Node.js", "MongoDB", "TypeScript", "AWS"],
   },
@@ -16,8 +17,8 @@ const experiences = [
     period: "2021 - 2022",
     description:
       "Desarrollo con MongoDB, Express.js, Angular y Node.js. Creación de aplicaciones empresariales y sistemas de gestión.",
-      url: "https://github.com/tu_usuario/proyecto-mern",
-      status: "COMPLETED" as const,
+    url: "https://github.com/tu_usuario/proyecto-mean",
+    status: "COMPLETED" as const,
     technologies: ["Angular", "Node.js", "MongoDB", "Express", "Docker"],
   },
   {
@@ -25,6 +26,7 @@ const experiences = [
     period: "2020 - 2021",
     description:
       "Desarrollo de aplicaciones móviles con React Native. Integración con servicios cloud y APIs de terceros.",
+    // No se incluye URL aquí
     status: "COMPLETED" as const,
     technologies: ["React Native", "Firebase", "Redux", "TypeScript", "GraphQL"],
   },
@@ -37,7 +39,9 @@ export function InteractiveExperience() {
     <section className="py-20 bg-gradient-to-br from-cyber-dark via-red-950/20 to-cyan-950/20 relative">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold font-orbitron gradient-text mb-4">TRAYECTORIA PROFESIONAL</h2>
+          <h2 className="text-5xl font-bold font-orbitron gradient-text mb-4">
+            TRAYECTORIA PROFESIONAL
+          </h2>
           <div className="h-1 w-48 bg-gradient-to-r from-cyber-magenta via-cyber-cyan to-cyber-green mx-auto rounded-full" />
         </div>
 
@@ -62,7 +66,9 @@ export function InteractiveExperience() {
                   )}
                   <span
                     className={`px-3 py-1 rounded-full text-xs font-orbitron font-bold ${
-                      exp.status === "ACTIVE" ? "bg-cyber-green text-black" : "bg-cyber-magenta text-black"
+                      exp.status === "ACTIVE"
+                        ? "bg-cyber-green text-black"
+                        : "bg-cyber-magenta text-black"
                     }`}
                   >
                     {exp.status}
@@ -90,9 +96,22 @@ export function InteractiveExperience() {
                 </p>
               </div>
 
-              <p className="text-gray-300 font-roboto-mono text-lg leading-relaxed mb-8">
+              <p className="text-gray-300 font-roboto-mono text-lg leading-relaxed mb-6">
                 {experiences[selectedExp].description}
               </p>
+
+              {/* Mostrar enlace a GitHub si existe */}
+              {experiences[selectedExp].url && (
+                <a
+                  href={experiences[selectedExp].url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center mb-6 text-cyber-green font-bold font-orbitron underline hover:text-cyber-cyan transition-all duration-200"
+                >
+                  <Github className="w-5 h-5 mr-2" />
+                  Ver proyecto en GitHub
+                </a>
+              )}
 
               <div className="flex flex-wrap gap-3">
                 {experiences[selectedExp].technologies.map((tech, index) => (

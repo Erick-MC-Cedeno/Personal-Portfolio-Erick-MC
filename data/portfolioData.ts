@@ -41,24 +41,30 @@ export const skillCategories = [
 
 export const experiences = [
   {
-    title: "Full Stack Developer (MERN)",
+    title: "Video-Play-DeepPlay (Full Stack App)",
     period: "2022 - Present",
     description:
       "Desarrollo de aplicaciones web completas usando MongoDB, Express.js, React y Node.js. Implementación de arquitecturas escalables y APIs RESTful.",
+    url: "https://github.com/Erick-MC-Cedeno/Video-Play-DeepPlay",
     status: "ACTIVE" as const,
+    technologies: ["React", "Node.js", "MongoDB", "TypeScript", "AWS"],
   },
   {
-    title: "Full Stack Developer (MEAN)",
+    title: "Crypto Wallet (Full Stack App)",
     period: "2021 - 2022",
     description:
-      "Desarrollo con MongoDB, Express.js, Angular y Node.js. Creación de aplicaciones empresariales y sistemas de gestión.",
+      "Desarrollo con MongoDB, NestJs, React, NodeJs, Web3Js, RPC, Solidity, y Smart contracts. Creación de aplicaciones empresariales y sistemas de gestión.",
+    url: "https://github.com/Erick-MC-Cedeno/Crypto-Wallet",
     status: "COMPLETED" as const,
+    technologies: ["NestJs", "React", "NodeJs", "Web3Js", "Solidity"],
   },
   {
-    title: "Mobile Developer",
+    title: "SafeRide (Mobile App)",
     period: "2020 - 2021",
     description:
       "Desarrollo de aplicaciones móviles con React Native. Integración con servicios cloud y APIs de terceros.",
+    url: "https://github.com/Erick-MC-Cedeno/SafeRide",
     status: "COMPLETED" as const,
+    technologies: ["React Native", "Firebase", "Redux", "TypeScript", "GraphQL"],
   },
 ]
