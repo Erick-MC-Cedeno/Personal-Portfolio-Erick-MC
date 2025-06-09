@@ -42,16 +42,16 @@ export const skillCategories = [
 export const experiences = [
   {
     title: "Video-Play-DeepPlay (Full Stack App)",
-    period: "2022 - Present",
+    
     description:
       "DeepPlay is a video streaming platform where users can upload, watch, rate, and comment on videos.",
     url: "https://github.com/Erick-MC-Cedeno/Video-Play-DeepPlay",
-    status: "ACTIVE" as const,
+    status: "COMPLETED" as const,
     technologies: ["React", "Node.js", "MongoDB", "TypeScript", "AWS"],
   },
   {
     title: "Crypto Wallet (Full Stack App)",
-    period: "2021 - 2022",
+    
     description:
       "This is a local demo focused on facilitating secure and efficient transfers on the Ethereum network using smart contracts. It provides a hands-on approach to blockchain transactions, making it easi…",
     url: "https://github.com/Erick-MC-Cedeno/Crypto-Wallet",
@@ -60,7 +60,7 @@ export const experiences = [
   },
   {
     title: "SafeRide (Mobile App)",
-    period: "2020 - 2021",
+    
     description:
       "The Ryde or Uber-clone is a React Native-based mobile application that mimics the core functionalities of ride-hailing services like Uber. The project focuses on building a robust and user-friendly…",
     url: "https://github.com/Erick-MC-Cedeno/SafeRide",
