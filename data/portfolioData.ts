@@ -65,6 +65,6 @@ export const experiences = [
       "Desarrollo de aplicaciones móviles con React Native. Integración con servicios cloud y APIs de terceros.",
     url: "https://github.com/Erick-MC-Cedeno/SafeRide",
     status: "COMPLETED" as const,
-    technologies: ["React Native", "Firebase", "Redux", "TypeScript", "GraphQL"],
+    technologies: ["React Native", "NEON", "TypeScript", "RESTful APIs"],
   },
 ]
