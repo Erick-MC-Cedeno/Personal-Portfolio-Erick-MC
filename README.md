@@ -8,6 +8,10 @@ Bienvenido al repositorio del portafolio profesional de Erick MC Cedeño. Este p
 
 Este portafolio es una aplicación web desarrollada con Next.js y React, utilizando Tailwind CSS y una estética cyberpunk. Aquí podrás encontrar información sobre mi trayectoria profesional, habilidades técnicas, proyectos destacados y formas de contacto.
 
+## 🌐 URL de mi portafolio
+
+Puedes visitar mi portafolio en: [https://personal-portfolio-erick-mc.vercel.app/](https://personal-portfolio-erick-mc.vercel.app/)
+
 ## 🧑‍💻 Tecnologías principales
 
 - **Next.js** — Framework React para aplicaciones web modernas
