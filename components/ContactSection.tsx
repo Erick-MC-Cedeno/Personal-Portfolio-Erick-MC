@@ -33,7 +33,7 @@ export function ContactSection() {
 
           <div className="flex flex-wrap justify-center gap-6 animate-fadeInUp" style={{ animationDelay: "4s" }}>
             <a
-              href="https://linkedin.com/in/erick-mc-cedeno"
+              href="https://www.linkedin.com/in/erick-cedeno-3a5137230"
               target="_blank"
               rel="noopener noreferrer"
               className="cyber-button px-8 py-4 rounded-lg flex items-center gap-3 text-lg min-w-[180px] justify-center"
@@ -42,7 +42,7 @@ export function ContactSection() {
               LINKEDIN
             </a>
             <a
-              href="www.linkedin.com/in/erick-cedeno-3a5137230"
+              href="https://github.com/erick-mc-cedeno"
               target="_blank"
               rel="noopener noreferrer"
               className="cyber-button-outline px-8 py-4 rounded-lg flex items-center gap-3 text-lg min-w-[180px] justify-center"
