@@ -78,8 +78,7 @@ Puedes contactarme directamente desde la sección de contacto del portafolio o a
 - **LinkedIn:** [Erick MC Cedeño](https://www.linkedin.com/in/erick-cedeno-3a5137230)
 - **Facebook:** [@Erick_MC](https://www.facebook.com/erick.m.cedeno.92)
 - **TikTok:** [@erickmc_cedeno](https://www.tiktok.com/@erickmc_cedeno)
-- **WhatsApp:** [+593998196930](https://wa.me/593998196930)
-- **Telegram:** [@ErickMCCedeno](https://t.me/ErickMCCedeno)
+
 
 ## 📝 Licencia
 
