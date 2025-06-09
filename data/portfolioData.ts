@@ -44,7 +44,7 @@ export const experiences = [
     title: "Video-Play-DeepPlay (Full Stack App)",
     period: "2022 - Present",
     description:
-      "Development of full-stack web applications using MongoDB, Express.js, React and Node.js. Implementation of scalable architectures and RESTful APIs.",
+      "DeepPlay is a video streaming platform where users can upload, watch, rate, and comment on videos.",
     url: "https://github.com/Erick-MC-Cedeno/Video-Play-DeepPlay",
     status: "ACTIVE" as const,
     technologies: ["React", "Node.js", "MongoDB", "TypeScript", "AWS"],
@@ -53,7 +53,7 @@ export const experiences = [
     title: "Crypto Wallet (Full Stack App)",
     period: "2021 - 2022",
     description:
-      "Development with MongoDB, NestJs, React, NodeJs, Web3Js, RPC, Solidity, and Smart contracts. Creation of enterprise applications and management systems.",
+      "This is a local demo focused on facilitating secure and efficient transfers on the Ethereum network using smart contracts. It provides a hands-on approach to blockchain transactions, making it easi…",
     url: "https://github.com/Erick-MC-Cedeno/Crypto-Wallet",
     status: "COMPLETED" as const,
     technologies: ["NestJs", "React", "NodeJs", "Web3Js", "Solidity"],
@@ -62,7 +62,7 @@ export const experiences = [
     title: "SafeRide (Mobile App)",
     period: "2020 - 2021",
     description:
-      "Development of mobile applications with React Native. Integration with cloud services and third-party APIs.",
+      "The Ryde or Uber-clone is a React Native-based mobile application that mimics the core functionalities of ride-hailing services like Uber. The project focuses on building a robust and user-friendly…",
     url: "https://github.com/Erick-MC-Cedeno/SafeRide",
     status: "COMPLETED" as const,
     technologies: ["React Native", "NEON", "TypeScript", "RESTful APIs"],
