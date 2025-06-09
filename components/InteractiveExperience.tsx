@@ -2,35 +2,7 @@
 import { useState } from "react"
 import { Play, CheckCircle, Clock, Github } from "lucide-react"
 
-const experiences = [
-  {
-    title: "Full Stack Developer (MERN)",
-    period: "2022 - Present",
-    description:
-      "Desarrollo de aplicaciones web completas usando MongoDB, Express.js, React y Node.js. Implementación de arquitecturas escalables y APIs RESTful.",
-    url: "https://github.com/tu_usuario/proyecto-mern",
-    status: "ACTIVE" as const,
-    technologies: ["React", "Node.js", "MongoDB", "TypeScript", "AWS"],
-  },
-  {
-    title: "Full Stack Developer (MEAN)",
-    period: "2021 - 2022",
-    description:
-      "Desarrollo con MongoDB, Express.js, Angular y Node.js. Creación de aplicaciones empresariales y sistemas de gestión.",
-    url: "https://github.com/tu_usuario/proyecto-mean",
-    status: "COMPLETED" as const,
-    technologies: ["Angular", "Node.js", "MongoDB", "Express", "Docker"],
-  },
-  {
-    title: "Mobile Developer",
-    period: "2020 - 2021",
-    description:
-      "Desarrollo de aplicaciones móviles con React Native. Integración con servicios cloud y APIs de terceros.",
-    // No se incluye URL aquí
-    status: "COMPLETED" as const,
-    technologies: ["React Native", "Firebase", "Redux", "TypeScript", "GraphQL"],
-  },
-]
+import { experiences } from "../data/portfolioData"
 
 export function InteractiveExperience() {
   const [selectedExp, setSelectedExp] = useState(0)

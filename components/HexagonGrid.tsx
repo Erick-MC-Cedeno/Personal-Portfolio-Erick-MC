@@ -1,15 +1,27 @@
 "use client"
 
+import { useEffect, useState } from "react"
+
 export function HexagonGrid() {
+  const [hexagons, setHexagons] = useState<Array<{ left: string; top: string }>>([])
+
+  useEffect(() => {
+    const generated = [...Array(12)].map(() => ({
+      left: `${Math.random() * 100}%`,
+      top: `${Math.random() * 100}%`,
+    }))
+    setHexagons(generated)
+  }, [])
+
   return (
     <div className="absolute top-0 left-0 right-0 bottom-0 overflow-hidden -z-10">
-      {[...Array(12)].map((_, i) => (
+      {hexagons.map((pos, i) => (
         <div
           key={i}
           className="absolute w-24 h-24"
           style={{
-            left: `${Math.random() * 100}%`,
-            top: `${Math.random() * 100}%`,
+            left: pos.left,
+            top: pos.top,
           }}
         >
           <div

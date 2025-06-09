@@ -26,59 +26,48 @@ export function ModernHeroSection() {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-3 gap-8 items-center">
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-2 text-center lg:text-left">
             <div className="mb-8">
-              <TypewriterText
-                text="INICIALIZANDO SISTEMA..."
-                className="text-cyber-green glow-green mb-4 text-lg"
-                speed={50}
-                delay={500}
-              />
+              <h1 className="text-4xl md:text-6xl lg:text-7xl font-black gradient-text mb-4 font-orbitron">
+                ERICK MC CEDENO
+              </h1>
 
-              <GlitchText
-                text="ERICK MC CEDENO"
-                className="text-4xl md:text-6xl lg:text-7xl font-black gradient-text mb-4"
-                as="h1"
-              />
-
-              <div className="flex flex-wrap items-center gap-4 mb-6">
+              <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 mb-6">
                 <div className="px-6 py-2 bg-gradient-to-r from-cyber-cyan/20 to-cyber-magenta/20 border border-cyber-cyan/40 rounded-full backdrop-blur-cyber">
-                  <TypewriterText
-                    text="CYBERPUNK DEVELOPER"
-                    className="font-orbitron text-cyber-cyan glow-cyan tracking-wider text-lg"
-                    speed={80}
-                    delay={2000}
-                  />
+                  <span className="font-orbitron text-cyber-cyan glow-cyan tracking-wider text-lg">
+                    CYBERPUNK DEVELOPER
+                  </span>
                 </div>
                 <div className="px-6 py-2 bg-gradient-to-r from-cyber-magenta/20 to-cyber-green/20 border border-cyber-magenta/40 rounded-full backdrop-blur-cyber">
-                  <TypewriterText
-                    text="FULL STACK ARCHITECT"
-                    className="font-orbitron text-cyber-magenta glow-magenta tracking-wide"
-                    speed={60}
-                    delay={4000}
-                  />
+                  <span className="font-orbitron text-cyber-magenta glow-magenta tracking-wide">
+                    FULL STACK ARCHITECT
+                  </span>
                 </div>
               </div>
 
-              <div className="mb-8 max-w-2xl">
-                <TypewriterText
-                  text="Arquitecto de soluciones digitales especializando en ecosistemas MERN/MEAN, blockchain y ciberseguridad. Transformando ideas en realidades tecnológicas del futuro."
-                  className="text-gray-300 text-lg leading-relaxed"
-                  speed={20}
-                  delay={6000}
-                  as="p"
-                />
+              <div className="mb-8 max-w-2xl mx-auto lg:mx-0">
+                <p className="text-gray-300 text-lg leading-relaxed">
+                  Arquitecto de soluciones digitales especializando en ecosistemas MERN/MEAN, blockchain y ciberseguridad. Transformando ideas en realidades tecnológicas del futuro.
+                </p>
               </div>
 
-              <div className="flex flex-wrap gap-6 animate-fadeInUp" style={{ animationDelay: "8s" }}>
-                <button className="cyber-button px-8 py-4 rounded-lg flex items-center gap-3 text-lg">
+              <div className="flex flex-wrap gap-6 justify-center lg:justify-start">
+                <a
+                  href="/contacto"
+                  className="cyber-button px-8 py-4 rounded-lg flex items-center gap-3 text-lg"
+                >
                   <Mail size={20} />
                   CONTACTAR
-                </button>
-                <button className="cyber-button-outline px-8 py-4 rounded-lg flex items-center gap-3 text-lg">
+                </a>
+                <a
+                  href="https://github.com/Erick-MC-Cedeno"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cyber-button-outline px-8 py-4 rounded-lg flex items-center gap-3 text-lg"
+                >
                   <Eye size={20} />
                   PROYECTOS
-                </button>
+                </a>
               </div>
             </div>
           </div>
