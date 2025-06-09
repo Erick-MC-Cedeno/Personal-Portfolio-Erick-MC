@@ -3,8 +3,8 @@ import { Linkedin, Github, Mail } from "lucide-react"
 import { TypewriterText } from "./TypewriterText"
 
 const contactLines = [
-  "> ¿Listo para colaborar en el próximo proyecto revolucionario?",
-  "> Conectemos y construyamos el futuro digital juntos.",
+  "> Ready to collaborate on the next revolutionary project?",
+  "> Let's connect and build the digital future together.",
 ]
 
 export function ContactSection() {
@@ -12,7 +12,7 @@ export function ContactSection() {
     <section className="py-20 bg-gradient-to-br from-cyber-gray/95 to-cyber-light-gray/95 border-t border-cyber-cyan/20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold font-orbitron text-cyber-cyan glow-cyan mb-4">ESTABLECER_CONEXIÓN</h2>
+          <h2 className="text-5xl font-bold font-orbitron text-cyber-cyan glow-cyan mb-4">ESTABLISH_CONNECTION</h2>
           <div className="h-1 w-48 bg-gradient-to-r from-transparent via-cyber-magenta to-transparent mx-auto rounded-full" />
         </div>
 

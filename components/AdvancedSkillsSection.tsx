@@ -75,7 +75,7 @@ export function AdvancedSkillsSection() {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold font-orbitron gradient-text mb-4">ARSENAL TECNOLÓGICO</h2>
+          <h2 className="text-5xl font-bold font-orbitron gradient-text mb-4">TECHNOLOGICAL ARSENAL</h2>
           <div className="h-1 w-48 bg-gradient-to-r from-cyber-cyan via-cyber-magenta to-cyber-green mx-auto rounded-full" />
         </div>
 

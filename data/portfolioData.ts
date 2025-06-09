@@ -44,7 +44,7 @@ export const experiences = [
     title: "Video-Play-DeepPlay (Full Stack App)",
     period: "2022 - Present",
     description:
-      "Desarrollo de aplicaciones web completas usando MongoDB, Express.js, React y Node.js. Implementación de arquitecturas escalables y APIs RESTful.",
+      "Development of full-stack web applications using MongoDB, Express.js, React and Node.js. Implementation of scalable architectures and RESTful APIs.",
     url: "https://github.com/Erick-MC-Cedeno/Video-Play-DeepPlay",
     status: "ACTIVE" as const,
     technologies: ["React", "Node.js", "MongoDB", "TypeScript", "AWS"],
@@ -53,7 +53,7 @@ export const experiences = [
     title: "Crypto Wallet (Full Stack App)",
     period: "2021 - 2022",
     description:
-      "Desarrollo con MongoDB, NestJs, React, NodeJs, Web3Js, RPC, Solidity, y Smart contracts. Creación de aplicaciones empresariales y sistemas de gestión.",
+      "Development with MongoDB, NestJs, React, NodeJs, Web3Js, RPC, Solidity, and Smart contracts. Creation of enterprise applications and management systems.",
     url: "https://github.com/Erick-MC-Cedeno/Crypto-Wallet",
     status: "COMPLETED" as const,
     technologies: ["NestJs", "React", "NodeJs", "Web3Js", "Solidity"],
@@ -62,7 +62,7 @@ export const experiences = [
     title: "SafeRide (Mobile App)",
     period: "2020 - 2021",
     description:
-      "Desarrollo de aplicaciones móviles con React Native. Integración con servicios cloud y APIs de terceros.",
+      "Development of mobile applications with React Native. Integration with cloud services and third-party APIs.",
     url: "https://github.com/Erick-MC-Cedeno/SafeRide",
     status: "COMPLETED" as const,
     technologies: ["React Native", "NEON", "TypeScript", "RESTful APIs"],

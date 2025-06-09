@@ -12,7 +12,7 @@ export function InteractiveExperience() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold font-orbitron gradient-text mb-4">
-            TRAYECTORIA PROFESIONAL
+            PROFESSIONAL BACKGROUND
           </h2>
           <div className="h-1 w-48 bg-gradient-to-r from-cyber-magenta via-cyber-cyan to-cyber-green mx-auto rounded-full" />
         </div>
@@ -81,7 +81,7 @@ export function InteractiveExperience() {
                   className="inline-flex items-center mb-6 text-cyber-green font-bold font-orbitron underline hover:text-cyber-cyan transition-all duration-200"
                 >
                   <Github className="w-5 h-5 mr-2" />
-                  Ver proyecto en GitHub
+                  View project on GitHub
                 </a>
               )}
 

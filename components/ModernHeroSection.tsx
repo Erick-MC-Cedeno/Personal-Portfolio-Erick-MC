@@ -5,10 +5,10 @@ import { TypewriterText } from "./TypewriterText"
 import { HexagonGrid } from "./HexagonGrid"
 
 const stats = [
-  { icon: Code, value: "50+", label: "Proyectos", color: "#00ffff" },
-  { icon: Rocket, value: "5+", label: "Años Exp.", color: "#ff0080" },
-  { icon: Shield, value: "100%", label: "Seguridad", color: "#00ff41" },
-  { icon: Cloud, value: "24/7", label: "Disponible", color: "#ffff00" },
+  { icon: Code, value: "50+", label: "Projects", color: "#00ffff" },
+  { icon: Rocket, value: "5+", label: "Yrs Exp.", color: "#ff0080" },
+  { icon: Shield, value: "100%", label: "Security", color: "#00ff41" },
+  { icon: Cloud, value: "24/7", label: "Available", color: "#ffff00" },
 ]
 
 export function ModernHeroSection() {
@@ -47,7 +47,7 @@ export function ModernHeroSection() {
 
               <div className="mb-8 max-w-2xl mx-auto lg:mx-0">
                 <p className="text-gray-300 text-lg leading-relaxed">
-                  Arquitecto de soluciones digitales especializando en ecosistemas MERN/MEAN, blockchain y ciberseguridad. Transformando ideas en realidades tecnológicas del futuro.
+                  Digital solutions architect specializing in MERN/MEAN ecosystems, blockchain and cybersecurity. Transforming ideas into technological realities of the future.
                 </p>
               </div>
 
@@ -57,7 +57,7 @@ export function ModernHeroSection() {
                   className="cyber-button px-8 py-4 rounded-lg flex items-center gap-3 text-lg"
                 >
                   <Mail size={20} />
-                  CONTACTAR
+                  CONTACT
                 </a>
                 <a
                   href="https://github.com/Erick-MC-Cedeno"
@@ -66,7 +66,7 @@ export function ModernHeroSection() {
                   className="cyber-button-outline px-8 py-4 rounded-lg flex items-center gap-3 text-lg"
                 >
                   <Eye size={20} />
-                  PROYECTOS
+                  PROJECTS
                 </a>
               </div>
             </div>

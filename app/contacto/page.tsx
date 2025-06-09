@@ -26,7 +26,7 @@ export default function ContactPage() {
       icon: Mail,
       label: "Email",
       value: "erickcedeno558@gmail.com",
-      url: "mailto:erickcedeno558@gmail.com?subject=Contacto%20desde%20Portfolio&body=Hola%20Erick%2C%0A%0AMe%20gustar%C3%ADa%20contactarte%20sobre...",
+      url: "mailto:erickcedeno558@gmail.com?subject=Contact%20from%20Portfolio&body=Hi%20Erick%2C%0A%0AI%20would%20like%20to%20contact%20you%20about...",
     },
   ]
 
@@ -34,7 +34,7 @@ export default function ContactPage() {
     <div className="min-h-screen bg-cyber-gradient py-20">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl md:text-6xl font-black gradient-text mb-12 text-center font-orbitron">
-          CONTACTO
+          CONTACT
         </h1>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
