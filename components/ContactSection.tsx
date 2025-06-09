@@ -12,7 +12,7 @@ export function ContactSection() {
     <section className="py-20 bg-gradient-to-br from-cyber-gray/95 to-cyber-light-gray/95 border-t border-cyber-cyan/20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold font-orbitron text-cyber-cyan glow-cyan mb-4">ESTABLISH_CONNECTION</h2>
+          <h2 className="text-5xl font-bold font-orbitron text-cyber-cyan glow-cyan mb-4">CONTACT INFO</h2>
           <div className="h-1 w-48 bg-gradient-to-r from-transparent via-cyber-magenta to-transparent mx-auto rounded-full" />
         </div>
 
@@ -50,10 +50,15 @@ export function ContactSection() {
               <Github size={20} />
               GITHUB
             </a>
-            <button className="px-8 py-4 rounded-lg flex items-center gap-3 text-lg min-w-[180px] justify-center bg-gradient-to-r from-cyber-magenta to-cyber-orange text-black font-orbitron font-semibold transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(255,0,128,0.5)]">
+            <a
+              href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-4 rounded-lg flex items-center gap-3 text-lg min-w-[180px] justify-center bg-gradient-to-r from-cyber-magenta to-cyber-orange text-black font-orbitron font-semibold transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(255,0,128,0.5)]"
+            >
               <Mail size={20} />
               EMAIL
-            </button>
+            </a>
           </div>
         </div>
       </div>

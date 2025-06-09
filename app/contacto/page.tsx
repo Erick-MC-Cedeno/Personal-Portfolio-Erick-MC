@@ -26,7 +26,7 @@ export default function ContactPage() {
       icon: Mail,
       label: "Email",
       value: "erickcedeno558@gmail.com",
-      url: "mailto:erickcedeno558@gmail.com?subject=Contact%20from%20Portfolio&body=Hi%20Erick%2C%0A%0AI%20would%20like%20to%20contact%20you%20about...",
+      url: "https://mail.google.com/mail/u/0/#inbox?compose=new",
     },
   ]
 
