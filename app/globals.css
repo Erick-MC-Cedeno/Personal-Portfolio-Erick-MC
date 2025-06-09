@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --background: 0 0% 3.9%;
+  --foreground: 0 0% 98%;
+}
+
+* {
+  @apply border-border;
+}
+
+html,
+body {
+  @apply overflow-x-hidden;
+  max-width: 100%;
+  position: relative;
+}
+
+body {
+  @apply bg-black text-white font-roboto-mono;
+  position: relative;
+}
+
 @layer base {
   :root {
     --cyber-cyan: #00ffff;

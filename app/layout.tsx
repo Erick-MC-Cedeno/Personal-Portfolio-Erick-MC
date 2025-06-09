@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { Orbitron, Roboto_Mono } from "next/font/google"
 import { createTheme } from "@mui/material/styles"
 import "./globals.css"
+import "../styles/lockScroll.css"
 
 const orbitron = Orbitron({
   subsets: ["latin"],

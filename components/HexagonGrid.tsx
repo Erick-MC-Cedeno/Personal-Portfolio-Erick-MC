@@ -14,11 +14,11 @@ export function HexagonGrid() {
   }, [])
 
   return (
-    <div className="absolute top-0 left-0 right-0 bottom-0 overflow-hidden -z-10">
+    <div className="fixed top-0 left-0 right-0 bottom-0 overflow-hidden -z-10">
       {hexagons.map((pos, i) => (
         <div
           key={i}
-          className="absolute w-24 h-24"
+          className="absolute w-16 sm:w-24 h-16 sm:h-24"
           style={{
             left: pos.left,
             top: pos.top,

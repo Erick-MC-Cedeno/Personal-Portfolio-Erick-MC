@@ -78,5 +78,9 @@ export function NeuralNetwork() {
     }
   }, [])
 
-  return <canvas ref={canvasRef} className="fixed top-0 left-0 w-full h-full -z-30 opacity-30" />
+  return (
+    <div className="fixed top-0 left-0 w-full h-full -z-30 overflow-hidden">
+      <canvas ref={canvasRef} className="w-full h-full opacity-30" />
+    </div>
+  )
 }

@@ -13,11 +13,11 @@ const stats = [
 
 export function ModernHeroSection() {
   return (
-    <section className="min-h-screen flex items-center relative overflow-hidden bg-cyber-gradient">
+    <section className="min-h-screen flex items-center relative overflow-hidden bg-cyber-gradient py-20 sm:py-0">
       <HexagonGrid />
 
       {/* Floating Elements */}
-      <div className="absolute top-1/5 right-1/10 w-48 h-48 border-2 border-cyber-cyan/20 rounded-full animate-float">
+      <div className="absolute top-1/5 right-1/10 w-48 h-48 border-2 border-cyber-cyan/20 rounded-full animate-float hidden sm:block">
         <div
           className="absolute top-1/2 left-1/2 w-24 h-24 border border-cyber-magenta/20 rounded-full transform -translate-x-1/2 -translate-y-1/2 animate-float"
           style={{ animationDuration: "4s", animationDirection: "reverse" }}
@@ -28,33 +28,33 @@ export function ModernHeroSection() {
         <div className="grid lg:grid-cols-3 gap-8 items-center">
           <div className="lg:col-span-2 text-center lg:text-left">
             <div className="mb-8">
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-black gradient-text mb-4 font-orbitron">
+              <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-black gradient-text mb-4 font-orbitron leading-tight">
                 ERICK MC CEDENO
               </h1>
 
               <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 mb-6">
-                <div className="px-6 py-2 bg-gradient-to-r from-cyber-cyan/20 to-cyber-magenta/20 border border-cyber-cyan/40 rounded-full backdrop-blur-cyber">
-                  <span className="font-orbitron text-cyber-cyan glow-cyan tracking-wider text-lg">
+                <div className="w-full sm:w-auto px-4 sm:px-6 py-2 bg-gradient-to-r from-cyber-cyan/20 to-cyber-magenta/20 border border-cyber-cyan/40 rounded-full backdrop-blur-cyber">
+                  <span className="font-orbitron text-cyber-cyan glow-cyan tracking-wider text-base sm:text-lg whitespace-nowrap">
                     CYBERPUNK DEVELOPER
                   </span>
                 </div>
-                <div className="px-6 py-2 bg-gradient-to-r from-cyber-magenta/20 to-cyber-green/20 border border-cyber-magenta/40 rounded-full backdrop-blur-cyber">
-                  <span className="font-orbitron text-cyber-magenta glow-magenta tracking-wide">
+                <div className="w-full sm:w-auto px-4 sm:px-6 py-2 bg-gradient-to-r from-cyber-magenta/20 to-cyber-green/20 border border-cyber-magenta/40 rounded-full backdrop-blur-cyber">
+                  <span className="font-orbitron text-cyber-magenta glow-magenta tracking-wide text-base sm:text-lg whitespace-nowrap">
                     FULL STACK ARCHITECT
                   </span>
                 </div>
               </div>
 
               <div className="mb-8 max-w-2xl mx-auto lg:mx-0">
-                <p className="text-gray-300 text-lg leading-relaxed">
+                <p className="text-gray-300 text-base sm:text-lg leading-relaxed px-2 sm:px-0">
                   Digital solutions architect specializing in MERN/MEAN ecosystems, blockchain and cybersecurity. Transforming ideas into technological realities of the future.
                 </p>
               </div>
 
-              <div className="flex flex-wrap gap-6 justify-center lg:justify-start">
+              <div className="flex flex-wrap gap-4 sm:gap-6 justify-center lg:justify-start">
                 <a
                   href="/contacto"
-                  className="cyber-button px-8 py-4 rounded-lg flex items-center gap-3 text-lg"
+                  className="w-full sm:w-auto cyber-button px-6 sm:px-8 py-3 sm:py-4 rounded-lg flex items-center justify-center gap-3 text-base sm:text-lg"
                 >
                   <Mail size={20} />
                   CONTACT
@@ -63,7 +63,7 @@ export function ModernHeroSection() {
                   href="https://github.com/Erick-MC-Cedeno"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="cyber-button-outline px-8 py-4 rounded-lg flex items-center gap-3 text-lg"
+                  className="w-full sm:w-auto cyber-button-outline px-6 sm:px-8 py-3 sm:py-4 rounded-lg flex items-center justify-center gap-3 text-base sm:text-lg"
                 >
                   <Eye size={20} />
                   PROJECTS
@@ -81,7 +81,7 @@ export function ModernHeroSection() {
                     key={index}
                     className="cyber-card p-4 rounded-lg transition-all duration-300 hover:translate-x-2 group"
                   >
-                    <div className="flex items-center">
+                    <div className="flex items-center justify-between sm:justify-start">
                       <div
                         className="p-3 rounded-lg border mr-4"
                         style={{
@@ -90,7 +90,7 @@ export function ModernHeroSection() {
                         }}
                       >
                         <IconComponent
-                          className="w-6 h-6"
+                          className="w-5 h-5 sm:w-6 sm:h-6"
                           style={{
                             color: stat.color,
                             filter: `drop-shadow(0 0 8px ${stat.color})`,
@@ -99,7 +99,7 @@ export function ModernHeroSection() {
                       </div>
                       <div>
                         <div
-                          className="text-2xl font-bold font-orbitron"
+                          className="text-xl sm:text-2xl font-bold font-orbitron"
                           style={{
                             color: stat.color,
                             textShadow: `0 0 10px ${stat.color}`,
@@ -107,7 +107,7 @@ export function ModernHeroSection() {
                         >
                           {stat.value}
                         </div>
-                        <div className="text-gray-400 font-roboto-mono text-sm">{stat.label}</div>
+                        <div className="text-gray-400 font-roboto-mono text-sm sm:text-base">{stat.label}</div>
                       </div>
                     </div>
                   </div>

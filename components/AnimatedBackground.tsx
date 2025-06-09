@@ -29,7 +29,7 @@ export function AnimatedBackground() {
     <>
       {/* Grid Background */}
       <div
-        className="fixed top-0 left-0 right-0 bottom-0 -z-20 animate-gridMove"
+        className="fixed top-0 left-0 right-0 bottom-0 -z-20 animate-gridMove overflow-hidden"
         style={{
           backgroundImage: `
             linear-gradient(rgba(0, 255, 255, 0.03) 1px, transparent 1px),
