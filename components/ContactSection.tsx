@@ -51,7 +51,7 @@ export function ContactSection() {
               GITHUB
             </a>
             <a
-              href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+              href="https://mail.google.com/mail/u/0/?fs=1&to=erickcedeno558@gmail.com&tf=cm"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 rounded-lg flex items-center gap-3 text-lg min-w-[180px] justify-center bg-gradient-to-r from-cyber-magenta to-cyber-orange text-black font-orbitron font-semibold transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(255,0,128,0.5)]"

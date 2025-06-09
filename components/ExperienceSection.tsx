@@ -18,7 +18,7 @@ export function ExperienceSection() {
             mb: 1,
           }}
         >
-          EXPERIENCIA_PROFESIONAL
+         PROJECTOS
         </Typography>
         <Box
           sx={{

@@ -26,7 +26,7 @@ export default function ContactPage() {
       icon: Mail,
       label: "Email",
       value: "erickcedeno558@gmail.com",
-      url: "https://mail.google.com/mail/u/0/#inbox?compose=new",
+      url: "https://mail.google.com/mail/u/0/?fs=1&to=erickcedeno558@gmail.com&tf=cm",
     },
   ]
 
