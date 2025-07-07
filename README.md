@@ -89,4 +89,5 @@ This project is open source and available under the MIT license.
 
 ---
 
+
 > Developed and designed by **Erick MC Cedeño** — 2025
