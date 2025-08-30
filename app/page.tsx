@@ -4,6 +4,7 @@ import { AnimatedBackground } from "../components/AnimatedBackground"
 import { CyberpunkHeader } from "../components/CyberpunkHeader"
 import { ModernHeroSection } from "../components/ModernHeroSection"
 import { AdvancedSkillsSection } from "../components/AdvancedSkillsSection"
+import { EducationSection } from "../components/EducationSection"
 import { InteractiveExperience } from "../components/InteractiveExperience"
 import { ContactSection } from "../components/ContactSection"
 
@@ -18,6 +19,7 @@ export default function CyberpunkPortfolio() {
         <CyberpunkHeader />
         <ModernHeroSection />
         <AdvancedSkillsSection />
+        <EducationSection />
         <InteractiveExperience />
         <ContactSection />
 

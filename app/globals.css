@@ -272,6 +272,24 @@ body {
   }
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.5);
+  }
+  to {
+    box-shadow: 0 0 40px rgba(0, 255, 255, 0.8);
+  }
+}
+
 .animate-glitch-1 {
   animation: glitch-1 0.5s infinite linear alternate-reverse;
 }
@@ -310,4 +328,24 @@ body {
 
 .animate-gridMove {
   animation: gridMove 20s linear infinite;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-out both;
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+.text-shadow-cyan {
+  text-shadow: 0 0 10px #00ffff;
+}
+
+.text-shadow-pink {
+  text-shadow: 0 0 10px #ff0080;
+}
+
+.text-shadow-green {
+  text-shadow: 0 0 10px #00ff41;
 }
