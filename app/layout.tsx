@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   title: "Erick MC Cedeno",
   description:
     "Portafolio profesional de Erick MC Cedeno, desarrollador Full Stack especializado en MERN, MEAN, Web3 y Ciberseguridad",
-  generator: "v0.dev",
+  generator: "Erick MC",
 }
 
 export default function RootLayout({
