@@ -20,19 +20,29 @@ export function NeuralNetwork() {
     window.addEventListener("resize", resizeCanvas)
 
     const nodes: Array<{ x: number; y: number; vx: number; vy: number }> = []
-    const nodeCount = 50
+    const nodeCount = 15
 
     // Create nodes
     for (let i = 0; i < nodeCount; i++) {
       nodes.push({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
-        vx: (Math.random() - 0.5) * 0.5,
-        vy: (Math.random() - 0.5) * 0.5,
+        vx: (Math.random() - 0.5) * 0.3,
+        vy: (Math.random() - 0.5) * 0.3,
       })
     }
 
-    const animate = () => {
+    let lastTime = 0
+    const targetFPS = 30
+    const frameInterval = 1000 / targetFPS
+
+    const animate = (currentTime: number) => {
+      if (currentTime - lastTime < frameInterval) {
+        requestAnimationFrame(animate)
+        return
+      }
+      lastTime = currentTime
+
       ctx.clearRect(0, 0, canvas.width, canvas.height)
 
       // Update and draw nodes
@@ -49,29 +59,27 @@ export function NeuralNetwork() {
         ctx.fillStyle = "#00ffff"
         ctx.fill()
 
-        // Draw connections
-        nodes.forEach((otherNode, j) => {
-          if (i !== j) {
-            const dx = node.x - otherNode.x
-            const dy = node.y - otherNode.y
-            const distance = Math.sqrt(dx * dx + dy * dy)
+        for (let j = i + 1; j < nodes.length; j++) {
+          const otherNode = nodes[j]
+          const dx = node.x - otherNode.x
+          const dy = node.y - otherNode.y
+          const distance = Math.sqrt(dx * dx + dy * dy)
 
-            if (distance < 150) {
-              ctx.beginPath()
-              ctx.moveTo(node.x, node.y)
-              ctx.lineTo(otherNode.x, otherNode.y)
-              ctx.strokeStyle = `rgba(0, 255, 255, ${1 - distance / 150})`
-              ctx.lineWidth = 0.5
-              ctx.stroke()
-            }
+          if (distance < 120) {
+            ctx.beginPath()
+            ctx.moveTo(node.x, node.y)
+            ctx.lineTo(otherNode.x, otherNode.y)
+            ctx.strokeStyle = `rgba(0, 255, 255, ${1 - distance / 120})`
+            ctx.lineWidth = 0.5
+            ctx.stroke()
           }
-        })
+        }
       })
 
       requestAnimationFrame(animate)
     }
 
-    animate()
+    animate(0)
 
     return () => {
       window.removeEventListener("resize", resizeCanvas)

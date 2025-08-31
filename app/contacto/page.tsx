@@ -1,11 +1,10 @@
 "use client"
-import { LinkedIn } from "@mui/icons-material"
-import { Mail, MessageCircle, Video, PhoneCall } from "lucide-react"
+import { Mail, MessageCircle, Video, Linkedin } from "lucide-react"
 
 export default function ContactPage() {
   const contactInfo = [
     {
-      icon: LinkedIn,
+      icon: Linkedin,
       label: "linkedin",
       value: "Erick MC Cedeño",
       url: "https://www.linkedin.com/in/erick-cedeno-3a5137230",
@@ -33,10 +32,8 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-cyber-gradient py-20">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl md:text-6xl font-black gradient-text mb-12 text-center font-orbitron">
-          CONTACT
-        </h1>
-        
+        <h1 className="text-4xl md:text-6xl font-black gradient-text mb-12 text-center font-orbitron">CONTACT</h1>
+
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
           {contactInfo.map((contact, index) => {
             const IconComponent = contact.icon

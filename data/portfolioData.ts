@@ -1,9 +1,9 @@
-import { Code, Storage, Cloud, Security, Web, Terminal } from "@mui/icons-material"
+import { Code, Database, Cloud, Shield, Globe, Terminal } from "lucide-react"
 
 export const skillCategories = [
   {
     title: "Frontend Development",
-    icon: Web,
+    icon: Globe,
     skills: ["React", "React Native", "Next.js", "Angular", "JavaScript", "TypeScript", "HTML5", "CSS3", "Material UI"],
     color: "#00ffff",
   },
@@ -15,7 +15,7 @@ export const skillCategories = [
   },
   {
     title: "Databases",
-    icon: Storage,
+    icon: Database,
     skills: ["MongoDB", "SQL", "PostgreSQL", "MySQL", "Redis"],
     color: "#00ff41",
   },
@@ -33,7 +33,7 @@ export const skillCategories = [
   },
   {
     title: "Security & Networking",
-    icon: Security,
+    icon: Shield,
     skills: ["Cybersecurity", "Network Security", "Cloudflare", "SSL/TLS", "Penetration Testing"],
     color: "#ff0080",
   },
