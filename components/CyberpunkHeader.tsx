@@ -12,7 +12,7 @@ export function CyberpunkHeader() {
           </div>
           <div className="flex items-center space-x-4">
             <a
-              href="https://linkedin.com/in/erick-mc-cedeno"
+              href="https://www.linkedin.com/in/erick-cedeno-3a5137230"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-cyber-cyan transition-all duration-300 hover:scale-110 hover:glow-cyan"
