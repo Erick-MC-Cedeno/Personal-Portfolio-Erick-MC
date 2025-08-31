@@ -16,8 +16,20 @@ export const CVSection = () => {
   }
 
   const handleView = () => {
-    // Open PDF in a new window/tab
-    window.open('/Erick Cedeno.pdf', '_blank')
+    // Open PDF in a new window/tab with proper content type
+    fetch('/Erick Cedeno.pdf')
+      .then(response => response.blob())
+      .then(blob => {
+        const url = window.URL.createObjectURL(blob)
+        window.open(url, '_blank')
+        // Clean up the URL after the window is opened
+        setTimeout(() => window.URL.revokeObjectURL(url), 100)
+      })
+      .catch(error => {
+        console.error('Error opening PDF:', error)
+        // Fallback to direct opening if fetch fails
+        window.open('/Erick Cedeno.pdf', '_blank')
+      })
   }
 
   return (
